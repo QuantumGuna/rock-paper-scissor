@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="details.html" class="star"><i class="fa-regular fa-star"></i></a>
+    </div>
+    <h1 class="bot">Bot</h1>
+    <h2 class="bot-score" id="bot-score">0</h2><br>
+    <img class="bot-choice" id="bot-choice">
+    <hr size="3" color="#f400ff">
+    <img class="your-choice" id="your-choice"><br><br>
+    <div class="choices" id="choices"></div><br>
+    <h2 class="your-score" id="your-score">0</h2>
+    <h1 class="you">You</h1>
+    <div id="winnerModal" class="modal">
+        <div class="modal-content">
+            <i class="fa-solid fa-check"></i>
+            <span class="close">&times;</span>
+            <p id="winnerMessage"></p>
+        </div>
+    </div>
+    <br>
+    <footer class="footer">
+        <p class="foot-text">Game created by Guna</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

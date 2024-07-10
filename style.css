@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+.container {
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    display: flex;
+} 
+.container .star {
+    border: 2px solid ;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fefefe;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(0, 26, 255);
+    
+}
+.bot-choice {
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+}
+.your-choice {
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+}
+.choices {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.choices img {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+}
+hr {
+    width: 70%;
+    margin: auto;
+}
+h1 {
+    font-size: 40px;
+}
+.bot {
+    background: #ff333f;
+    width: 30%;
+    border-radius: 20px;
+    margin: auto;
+}
+.you {
+    background: #3334ff;
+    width: 30%;
+    border-radius: 20px;
+    margin: auto;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 50% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 85%; /* Could be more or less, depending on screen size */
+    height: 30%;
+    font-size: 50px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.modal-content i {
+    background-color: rgb(10, 228, 10);
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#player-input {
+    margin: 20px;
+}
+
+#playerNameInput {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#startGameButton {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 1rem 7%;
+    background-color: #888;
+}
+.foot-text {
+    font-size: 1.2rem;
+}
