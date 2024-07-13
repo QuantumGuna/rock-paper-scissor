@@ -52,6 +52,19 @@
             border: 2px solid ;
             border-radius: 20px;
         }
+        @media (max-width: 414px) {
+            .details {
+                padding: 20px;
+                width: 60%;
+            }
+            .details h2 {
+                padding: 10px;
+            }
+            .details button {
+                margin: 30px;
+
+            }
+        }
     </style>
 </head>
 <body>
@@ -61,7 +74,12 @@
             <p><i class="fa-solid fa-arrow-right"></i>Winner can be Choosen after 10 rounds.</p>
             <p><i class="fa-solid fa-arrow-right"></i>You can use keypad keys in PC also.</p>
             <p><i class="fa-solid fa-arrow-right"></i>1 as Rock, 2 as Paper, 3 as Scissor.</p>
-        <button type="button" onclick="closeDetails"><a href="index.html">Ok</a></button>
+        <button id="okButton">Ok</button>
     </div>
+    <script>
+        document.getElementById('okButton').addEventListener('click',function() {
+            window.history.back();
+        });
+    </script>
 </body>
 </html>
