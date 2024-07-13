@@ -68,26 +68,26 @@ h1 {
     margin: auto;
 }
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    display: none; 
+    position: fixed;
+    z-index: 1;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0); /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    overflow: auto; 
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal-content {
     background-color: #fefefe;
-    margin: 50% auto; /* 15% from the top and centered */
+    margin: 50% auto; 
     padding: 20px;
     border: 1px solid #888;
-    width: 85%; /* Could be more or less, depending on screen size */
+    width: 85%;
     height: 30%;
-    font-size: 50px;
+    font-size: 40px;
     border-radius: 20px;
     text-align: center;
     justify-content: center;
@@ -138,3 +138,49 @@ h1 {
 .foot-text {
     font-size: 1.2rem;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .bot-choice {
+        height: 220px;
+        width: 220px;
+    }
+    .your-choice {
+        height: 220px;
+        width: 220px;
+    }
+}
+
+
+@media (max-width: 600px){
+    .bot-choice {
+        height: 200px;
+        width: 200px;
+    }
+    .your-choice {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+
+/* For Mobile Screen */
+@media (max-width: 414px) {
+    .bot-choice {
+        height: 180px;
+        width: 180px;
+        
+    }
+    .your-choice {
+        height: 180px;
+        width: 180px;
+    }
+    .choices img{
+        height: 70px;
+        width: 70px;
+    }
+    
+}
+
+
+
