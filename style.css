@@ -161,6 +161,9 @@ h1 {
         height: 200px;
         width: 200px;
     }
+    .modal-content {
+        font-size: 30px;
+    }
 }
 
 
@@ -178,8 +181,9 @@ h1 {
     .choices img{
         height: 70px;
         width: 70px;
-    }.modal-content {
-        font-size: 30px;
+    }
+    .modal-content {
+        font-size: 25px;
     }
     
 }
